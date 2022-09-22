@@ -1,7 +1,5 @@
 let mysql = require('mysql2');
 let db_info = {
-    connectionLimit: 10,
-    acquireTimeout: 30000,
     host: 'awsyoo.cxm95rfml4lf.ap-northeast-2.rds.amazonaws.com',
     port: '3306',
     user: 'admin',
